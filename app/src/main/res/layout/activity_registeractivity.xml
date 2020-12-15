@@ -1,0 +1,65 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="10dp"
+        android:text="REGISTRATION"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:paddingTop="50dp"
+        android:hint="Name"
+        android:layout_margin="10dp"
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Phone Number"
+        android:layout_margin="10dp"
+        android:id="@+id/uphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:id="@+id/uemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="User Name"
+        android:layout_margin="10dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:id="@+id/upass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Confirm Password"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="registerevent"
+        android:text="Register"
+        android:layout_margin="10dp"
+        android:background="@drawable/mybutton"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back to Login"
+        android:layout_margin="10dp"
+        android:background="@drawable/mybutton"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
